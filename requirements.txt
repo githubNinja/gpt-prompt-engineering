@@ -1,0 +1,7 @@
+psycopg2-binary
+pandas
+scikit-learn
+openai~=1.2.3
+flask
+jsonify
+requests
