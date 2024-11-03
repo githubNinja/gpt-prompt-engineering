@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 from openai import OpenAI
 
 
-OPENAI_API_KEY='OPENAI_API_KEY'
+OPENAI_API_KEY =  ''
 openai.api_key = OPENAI_API_KEY
 client = OpenAI()
 # Load your modeled data

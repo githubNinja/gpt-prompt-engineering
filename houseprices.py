@@ -2,7 +2,8 @@ import openai
 from openai import OpenAI
 
 # Your OpenAI API key
-OPENAI_API_KEY='OPENAI_API_KEY'
+#OPENAI_API_KEY='OPENAI_API_KEY'
+OPENAI_API_KEY =  ''
 openai.api_key = OPENAI_API_KEY
 client = OpenAI()
 
@@ -43,7 +44,7 @@ plt.show()
 user_prompt = """
 You are a helpful assistant that can predict house prices. 
 Given a house size, you should provide the predicted price.
-Let's test it with a house size of 2000 sq ft.
+Let's test it with a house size of 10000 sq ft.
 """
 
 # Combine the user prompt and the machine learning code

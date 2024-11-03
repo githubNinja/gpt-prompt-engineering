@@ -22,7 +22,7 @@ psql -U postgres
 
 CREATE TABLE test_user (user_id serial PRIMARY KEY,username VARCHAR ( 50 ) UNIQUE NOT NULL, address VARCHAR ( 300 ) UNIQUE NOT NULL)
  insert into test_user(username, address) values ('Brad', '24 th Street, Chicago, IA');
- insert into test_user(user_id,username) values ('John', '70th Street, Davenport, IA');
+ insert into test_user(username,address) values ('John', '70th Street, Davenport, IA');
 
 
 docker run -it --rm --network some-network postgres psql -h postgresql -U postgres
