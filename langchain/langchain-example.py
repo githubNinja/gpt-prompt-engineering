@@ -5,9 +5,9 @@
 import os
 
 # Ensure your OpenAI API key is set correctly
-os.environ["OPENAI_API_KEY"] = "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"  # Replace this or set the environment variable in your system
+os.environ["OPENAI_API_KEY"] = "OPENAPI_KEY"  # Replace this or set the environment variable in your system
 
-# OPENAI_API_KEY = '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'
+
 # openai.api_key = OPENAI_API_KEY
 
 

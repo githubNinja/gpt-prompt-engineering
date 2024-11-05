@@ -6,7 +6,7 @@ template = "What is a good name for a company that makes {product}?"
 prompt = PromptTemplate(input_variables=["product"], template=template)
 
 
-llm = ChatOpenAI(openai_api_key="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")  # Replace with your OpenAI API key
+llm = ChatOpenAI(openai_api_key="OPENAPI_KEY")  # Replace with your OpenAI API key
 
 llm_chain = LLMChain(prompt=prompt, llm=llm)
 
