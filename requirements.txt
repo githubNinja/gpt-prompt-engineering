@@ -1,15 +1,16 @@
 psycopg2-binary
 pandas
 scikit-learn
-openai~=1.2.3
 flask
 jsonify
 requests
 seaborn
 matplotlib
--- AI libraries
-langchain==0.2.16
-langchain-openai==0.1.23
-pyautogen==0.2.31
-langgraph==0.2.16
-langchainhub==0.1.21
+openai~=1.52.0
+langchain
+langchain-openai
+langgraph
+pyautogen
+langchain_community
+streamlit
+
