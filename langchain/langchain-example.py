@@ -1,16 +1,11 @@
-
-
-
-
 import os
 
 # Ensure your OpenAI API key is set correctly
-os.environ["OPENAI_API_KEY"] = "OPENAPI_KEY"  # Replace this or set the environment variable in your system
+os.environ["OPENAI_API_KEY"] = "key" # Replace this or set the environment variable in your system
 
 
-# openai.api_key = OPENAI_API_KEY
 
-
+#openai.api_key = OPENAI_API_KEY
 
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate

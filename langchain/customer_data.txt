@@ -1,0 +1,31 @@
+Customer ID: 001
+Name: John Doe
+Channel: Call Center
+Interaction Type: Call
+Date: 2023-10-15
+Duration: 15 minutes
+RAG Status: Green
+Notes: Customer called to inquire about account balance and recent transactions.
+
+Customer ID: 002
+Name: Jane Smith
+Channel: IVR
+Interaction Type: Automated Menu
+Date: 2023-10-16
+Duration: 5 minutes
+RAG Status: Amber
+Notes: Customer accessed the IVR system to check transaction status.
+
+Customer ID: 003
+Name: Mark Lee
+Channel: Chat
+Interaction Type: Live Chat
+Date: 2023-10-17
+Duration: 10 minutes
+RAG Status: Red
+Notes: Customer reported an issue with login and requested assistance from support.
+
+Customer ID: 004
+Name: Emily Davis
+Channel: Call Center
+Interaction Type

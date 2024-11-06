@@ -11,6 +11,7 @@ langchain
 langchain-openai
 langgraph
 pyautogen
-langchain_community
+langchain-community
 streamlit
+pinecone
 
