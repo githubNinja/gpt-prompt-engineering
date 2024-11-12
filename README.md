@@ -15,3 +15,11 @@ Step 1: Ensure the Virtual Environment is Activated
     #### pip install langchain langchain-openai langgraph pyautogen
 5. To install a specific dependency only from requirements.txt 
     #### pip install -r requirements.txt --no-deps langchain_community
+
+
+## Running docker Compose
+* docker-compose up
+* Verify OpenSearch is Running: Check if OpenSearch is running by accessing it on http://localhost:9200. You should see a JSON response indicating OpenSearch is up
+## Install Open Search Client
+* Install OpenSearch Python Client: Install the Python client for OpenSearch:
+* pip install opensearch-py
