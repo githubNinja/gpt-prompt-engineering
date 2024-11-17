@@ -14,7 +14,6 @@ pyautogen
 langchain-community
 streamlit~=1.40.1
 pinecone~=5.4.0
-
-
 langchain-core~=0.3.19
 numpy~=1.26.4
+opensearch-py

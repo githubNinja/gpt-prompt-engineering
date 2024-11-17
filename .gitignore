@@ -12,3 +12,5 @@ logs/
 .metadata
 .recommenders
 /Servers
+./DS_Store/
+/__pycache__/
