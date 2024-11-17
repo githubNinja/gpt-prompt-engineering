@@ -9,7 +9,7 @@ from langchain.schema.runnable import RunnableSequence
 import os
 
 # Ensure your OpenAI API key is set correctly
-os.environ["OPENAI_API_KEY"] = "KEY"
+os.environ["OPENAI_API_KEY"] = "API_KEY"
 
 llm = OpenAI(openai_api_key=os.getenv("OPENAI_API_KEY")) # Language Model
 
