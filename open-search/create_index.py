@@ -26,12 +26,12 @@ mapping = {
             "notes": {"type": "text"},
             "embedding": {
                 "type": "knn_vector",
-                "dims": 1536  # Set the dimensionality based on your embedding model
+                "dimension": 1536  # Set the dimensionality based on your embedding model
             }
         }
     }
 }
 
 # Create the index
-#client.indices.create(index=index_name, body=mapping)
+client.indices.create(index=index_name, body=mapping)
 print(f"Index '{index_name}' created with vector fields.")

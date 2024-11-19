@@ -9,7 +9,7 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 warnings.filterwarnings("ignore", category=UserWarning)
 
 # Set your OpenAI API key
-os.environ["OPENAI_API_KEY"] ="KEY" # Replace with your actual API key
+os.environ["OPENAI_API_KEY"] = "API_KEY"
 
 # Initialize the OpenAI LLM with the API key
 llm = OpenAI(openai_api_key=os.getenv("OPENAI_API_KEY"))
