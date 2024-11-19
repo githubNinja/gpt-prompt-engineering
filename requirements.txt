@@ -4,11 +4,11 @@ scikit-learn
 flask
 jsonify
 requests
-seaborn
+seaborn~=0.13.2
 matplotlib
 openai~=1.52.0
-langchain
-langchain-openai
+langchain~=0.3.7
+langchain-openai~=0.2.5
 langgraph
 pyautogen
 langchain-community
