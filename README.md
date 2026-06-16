@@ -12,7 +12,7 @@ Step 1: Ensure the Virtual Environment is Activated
 3. which python
 
 4. Install the Dependencies in this active environment if they aren’t there:
-    #### pip install langchain langchain-openai langgraph pyautogen
+    #### pip install langchain langchain-openai langgraph ag2
 5. To install a specific dependency only from requirements.txt 
     #### pip install -r requirements.txt --no-deps langchain_community
 
